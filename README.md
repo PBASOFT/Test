@@ -24,7 +24,7 @@ _An alien meets you and it asks you to teach it how to brush its teeth. Assume
 that the alien has teeth exactly like yours, and is as smart as you, but it
 needs a clear step-by-step instruction. List the steps. Be as detailed as
 you can. (Example: Hold the toothpaste with your left hand; turn the cap
-anti-clockwise).
+anti-clockwise)._
 
 1. Tag tandbørsten i den ene hånd
 2. Tænd for det kolde vand med den anden hånd
