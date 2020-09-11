@@ -1,10 +1,10 @@
 Test \ Soft2020fall
 
-Assignment #1
-======
+#Assignment #1
 
-Reflections
-------
+
+##Reflections
+
 
 Shooting
 A woman fired a shot at a man with her gun, but the man did not die. List
