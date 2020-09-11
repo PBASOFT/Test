@@ -8,7 +8,7 @@ Test \ Soft2020fall
 
 ### Shooting
 _A woman fired a shot at a man with her gun, but the man did not die. List
-the possible reasons for the man not dying.
+the possible reasons for the man not dying._
 
 1. Han blev ikke ramt et dødbringende sted
 2. Han fik hurtigt hjælp
