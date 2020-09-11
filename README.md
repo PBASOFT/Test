@@ -19,7 +19,7 @@ the possible reasons for the man not dying.
 
 
 
-## Alien
+### Alien
 _An alien meets you and it asks you to teach it how to brush its teeth. Assume
 that the alien has teeth exactly like yours, and is as smart as you, but it
 needs a clear step-by-step instruction. List the steps. Be as detailed as
