@@ -68,6 +68,9 @@ Give your thoughts on TDD
 Write your notes (in a readme file) regarding the TDD process, reflecting on
 the following questions.
 • What was positive and good about using TDD?
+
+sparede umiddelbart nogle linjer kode i roman, da jeg ikke selv havde tænkt at 300 og 400 kunne løses uden egne løkker... 
+
 • What was annoying or difficult?
 • What surprised you?
 • Did TDD help you write some tests you wouldn’t otherwise have thought
