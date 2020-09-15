@@ -51,6 +51,9 @@ anti-clockwise)._
 
 
 
+
+
+
 ### Give your thoughts on TDD
 
 • ___What was positive and good about using TDD?___
@@ -58,9 +61,11 @@ anti-clockwise)._
 Jeg kan rigtig godt lide den "tjekliste-agtige" måde at arbejde på. Og især i Roman Numerals-opgaven var det trygt at ændre lidt i metoden, når jeg ikke helt havde overblik over hvordan en ændring ville påvirke omregningen de andre tal. Jeg havde et godt overblik over koden, selvom den til tider virkede indviklet.
 
 
+
 • ___What was annoying or difficult?___
 
 Det var svært at tage så små skridt, som metoden kræver. 
+
 
 
 • ___What surprised you?___
