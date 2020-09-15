@@ -12,10 +12,14 @@ the possible reasons for the man not dying._
 
 1. Han blev ikke ramt et dødbringende sted
 2. Han fik hurtigt hjælp
-3. Han bar skudsikker vest
-4. Hun ramte ved siden af
-5. Hendes pistol var ladt med løst krudt
-6. Hendes pistol var ikke ægte
+3. Han bar skudsikker vest 
+4. Han var død i forvejen
+5. Hun ramte ved siden af
+6. Han flyttede sig
+7. Noget (fx en fugl) kom imellem dem og tog skuddet
+8. Hendes pistol var ladt med løst krudt
+9. Hendes pistol var ikke ægte
+10. Manden var ikke ægte
 
 
 
@@ -34,48 +38,31 @@ anti-clockwise)._
 6. Skru låget af tuben ved at dreje det mod urets retning
 7. Tryk let på tuben for at presse lidt tandpasta ud på tandbørstehovedet
 8. Skru låget på tandpastaen igen ved at dreje det med urets retning
-9. 
-
-
----
-
-Two katas
-Complete the following two katas using TDD. Make sure to follow the TDD
-mantra, “red-green-refactor”:
-• Red: Write a failing test.
-• Green: Write the smallest implementation to make your test pass.
-• Refactor: Make the necessary refactoring to the implementation and
-tests, in order to remove code redundancy
-A fuller explanation of the TDD steps can be found here: https://en.
-wikipedia.org/wiki/Test-driven_development
-
-
-Fahrenheit-to-celcius converter
-Use TDD to create a fahrenheit-to-celcius converter.
-Use TDD to extend it to a celcius-to-fahrenheit converter.
-Roman numeral kata
-Implement an “Arabic numeral to roman numeral” converter using TDD.
-Follow the standard form of roman numerals – the rules can be found on
-the wikipedia page: https://en.wikipedia.org/wiki/Roman_numerals#
-Standard_form.
-You can test your converter against this online converter:
-http://www.novaroma.org/via_romana/numbers.html.
+9. Åbn munden og stik børstehovedet om til den bagerste tand i overmunden
+10. Skrub tanden med børstehovedet 10 gange
+11. Fortsæt derefter til tanden ved siden af og gentag indtil alle tænder i overmunden er børstet
+12. Børst tænderne i undermunden efter samme fremgangsmåde
+13. Spyt overskydende tandpasta og spyt ud i vasken
+14. Tænd for det kolde vand med den ledige hånd
+15. Skyld børstehovedet under vandet
+16. Læg tandpasta og tandbørsten på plads
+17. Smil til dig selv i spejlet :-D
 
 
 
 
-Give your thoughts on TDD
-Write your notes (in a readme file) regarding the TDD process, reflecting on
-the following questions.
+#### Give your thoughts on TDD
+
 • What was positive and good about using TDD?
 
-sparede umiddelbart nogle linjer kode i roman, da jeg ikke selv havde tænkt at 300 og 400 kunne løses uden egne løkker... 
+Jeg kan rigtig godt lide den "tjekliste-agtige" måde at arbejde på. Og især i Roman Numerals-opgaven var det trygt at ændre lidt i metoden, når jeg ikke helt havde overblik over hvordan en ændring ville påvirke omregningen de andre tal. Jeg havde et godt overblik over koden, selvom den til tider virkede indviklet.
+
 
 • What was annoying or difficult?
+Det var svært at tage så små skridt, som metoden kræver. 
+
+
 • What surprised you?
-• Did TDD help you write some tests you wouldn’t otherwise have thought
-of?
-Hand-in
-Individually, on Peergrade before the deadline. The hand-in should be a link
-to a repository including a section in README.md named Assignment 1 with
-answers to the exercise questions.
+Jeg sparede umiddelbart et par linjer kode i Roman Numeral-opgaven, da jeg oplevede at lave en test til et tal, som jeg havde forventet ville fejle. I virkeligheden havde jeg ikke selv først regnet ud, at jeg kunne lade min kode tælle videre fra fx 3-400.
+
+Det var virkelig nemt at finde ud af hvor jeg skulle sætte ind når noget ikke virkede efter hensigten.
