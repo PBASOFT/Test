@@ -46,8 +46,10 @@ anti-clockwise)._
 13. Spyt overskydende tandpasta og spyt ud i vasken
 14. Tænd for det kolde vand med den ledige hånd
 15. Skyld børstehovedet under vandet
-16. Læg tandpasta og tandbørsten på plads
-17. Smil til dig selv i spejlet :-D
+16. Sluk for vandet
+17. Læg tandpasta og tandbørsten på plads
+18. Tør dig evt om munden
+19. Smil til dig selv i spejlet :-D
 
 
 
