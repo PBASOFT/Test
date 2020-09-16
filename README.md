@@ -20,6 +20,7 @@ the possible reasons for the man not dying._
 8. Hendes pistol var ladt med løst krudt
 9. Hendes pistol var ikke ægte
 10. Manden var ikke ægte
+11. Manden stod bag et panserglas
 
 
 
