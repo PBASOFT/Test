@@ -69,6 +69,7 @@ Jeg kan rigtig godt lide den "tjekliste-agtige" måde at arbejde på. Og især i
 
 Det var svært at tage så små skridt, som metoden kræver. 
 
+Det var svært at refaktorere kode, da den steg i kompleksitet og dermed krævede større overblik end blot den simpleste løsning her og nu.
 
 
 • ___What surprised you?___
