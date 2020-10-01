@@ -54,6 +54,20 @@ anti-clockwise)._
 
 
 
+## Two katas
+
+### Fahrenheit-to-celcius converter
+• ___Use TDD to create a fahrenheit-to-celcius converter___
+
+[degreesConverterTDD]: https://github.com/maleneH/Test/tree/master/Assignment%201/degreesConverterTDD
+
+
+### Roman numeral kata
+
+• ___Implement an “Arabic numeral to roman numeral” converter using TDD___
+
+
+[degreesConverterTDD]: https://github.com/maleneH/Test/tree/master/Assignment%201/RomanNumeralsTDD
 
 
 
