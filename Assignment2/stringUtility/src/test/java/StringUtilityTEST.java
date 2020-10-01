@@ -18,7 +18,6 @@ public class StringUtilityTEST {
         assertNotNull(stringUtility);
     }
 
-    
 
     @Test
     public void mustReverseString() {
@@ -30,7 +29,6 @@ public class StringUtilityTEST {
 
         //Assert
         assertEquals(expected, result);
-
     }
 
     @Test
@@ -43,10 +41,8 @@ public class StringUtilityTEST {
         
         //Assert
         assertEquals(expected, result);
-
-
-    
     }
+
 
     @Test
     public void mustReturnErrorMessageWhenStringToReverseIsEmpty() {
@@ -58,8 +54,8 @@ public class StringUtilityTEST {
 
         //Assert
         assertEquals(expected, result);
-
     }
+
 
     @Test
     public void mustCapitalizeString() {
@@ -71,8 +67,8 @@ public class StringUtilityTEST {
 
         //Assert
         assertEquals(expected, result);
-
     }
+
 
     @Test
     public void mustReturnErrorMessageWhenStringToCapitalizeNotOnlyContainsLetters() {
@@ -84,8 +80,8 @@ public class StringUtilityTEST {
 
         //Assert
         assertEquals(expected, result);
-
     }
+
 
     @Test
     public void mustReturnErrorMessageWhenStringToCapitalizeIsEmpty() {
@@ -97,8 +93,8 @@ public class StringUtilityTEST {
 
         //Assert
         assertEquals(expected, result);
-
     }
+
 
     @Test
     public void mustLowercaseString() {
@@ -110,8 +106,8 @@ public class StringUtilityTEST {
 
         //Assert
         assertEquals(expected, result);
-
     }
+
 
     @Test
     public void mustReturnErrorMessageWhenStringToLowercaseNotOnlyContainsLetters() {
@@ -123,8 +119,8 @@ public class StringUtilityTEST {
 
         //Assert
         assertEquals(expected, result);
-
     }
+
 
     @Test
     public void mustReturnErrorMessageWhenStringToLowercaseIsEmpty() {
@@ -136,9 +132,5 @@ public class StringUtilityTEST {
 
         //Assert
         assertEquals(expected, result);
-
     }
-
-
-
 }
