@@ -66,9 +66,7 @@ anti-clockwise)._
 
 • ___Implement an “Arabic numeral to roman numeral” converter using TDD___
 
-
-[degreesConverterTDD]: https://github.com/maleneH/Test/tree/master/Assignment%201/RomanNumeralsTDD
-
+[degreesConverterTDD](..tree/master/Assignment%201/degreesConverterTDD)
 
 
 ### Give your thoughts on TDD
