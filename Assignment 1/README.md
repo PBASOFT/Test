@@ -59,8 +59,7 @@ anti-clockwise)._
 ### Fahrenheit-to-celcius converter
 • ___Use TDD to create a fahrenheit-to-celcius converter___
 
-[degreesConverterTDD]: https://github.com/maleneH/Test/tree/master/Assignment%201/degreesConverterTDD
-
+[degreesConverterTDD](https://github.com/maleneH/Test/tree/master/Assignment%201/degreesConverterTDD)
 
 ### Roman numeral kata
 
