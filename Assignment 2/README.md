@@ -19,10 +19,12 @@ what happened. Can you identify a test that would have prevented it?___
 ## Two katas
 
 ### String utility
-___Use TDD to create a string utility with the following methods:___  <br/>
+___Use TDD to create a string utility with the following methods:___
 
-  • Reverse string (aBc -> cBa) <br/>
-  • Capitalize string (aBc -> ABC) <br/>
+  • Reverse string (aBc -> cBa)
+
+  • Capitalize string (aBc -> ABC)
+
   • Lowercase string (aBc -> abc)
 
 
@@ -34,3 +36,28 @@ ___Complete the Bowling Game Kata using TDD. The slides can be found here:
 
 ### JUnit 5
 ___Investigate JUnit 5 (Jupiter). Explain the following, and how they are useful.___
+
+  • @Tag
+
+  • @Disabled
+
+  • @RepeatedTest
+
+  • @BeforeEach, @AfterEach
+
+  • @BeforeAll, @AfterAll
+
+  • @DisplayName
+
+  • @Nested
+
+  • assumeFalse, assumeTrue
+
+### Mocking frameworks
+___Investigate mocking frameworks for your preferred language. Choose at least two frameworks, and answer the questions. (One could be Mockito, which we saw in class.)___
+
+  ___• What are their similarities?___
+
+  ___• What are their differences?___
+
+  ___• Which one would you prefer, if any, and why?___
