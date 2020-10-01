@@ -1,10 +1,13 @@
 package convert;
 
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.TestInstance;
-import org.testng.ITest;
+import com.sun.jdi.connect.Connector;
+import org.junit.jupiter.api.*;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.Arguments;
+import org.junit.jupiter.params.provider.CsvSource;
+import org.junit.jupiter.params.provider.MethodSource;
+
+import java.util.stream.Stream;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -37,17 +40,42 @@ public class ToRomanNumeralTest {
         assertEquals(null, result );
     }
 
-    @Test
-    public void mustConvert1ToI(){
+    @Disabled
+    @ParameterizedTest
+    @CsvSource({"test,TEST", "tEst,TEST", "Java,JAVA"})
+    void toUpperCase_ShouldGenerateTheExpectedUppercaseValue(String input, String expected) {
+        String actualValue = input.toUpperCase();
+        assertEquals(expected, actualValue);
+    }
+
+
+    @ParameterizedTest
+    @CsvSource({"1,I",
+                "10, X"})
+    public void mustConvert1ToI(String input, String expOutput){
         //Arrange
         converter = new RomanNumeralConverter();
 
         //Act
-        String result = converter.toRomanNumeral(1);
+        String result = converter.toRomanNumeral(Integer.parseInt(input));
 
         //Assert
-        assertEquals("I", result );
+        assertEquals(expOutput, result );
     }
+
+
+    @ParameterizedTest
+   // @MethodSource("argumentsForRomanConverter")
+    @MethodSource
+    void mustConvertRomanNumeral(int input, String expected) {
+        var result = converter.toRomanNumeral(input);
+        assertEquals(expected, result);
+    }
+    private static Stream<Arguments> mustConvertRomanNumeral(){
+        return Stream.of(Arguments.of(1,"I"),
+                         Arguments.of(2,"II"));
+    }
+
 
     @Test
     public void mustConvert2ToII() {

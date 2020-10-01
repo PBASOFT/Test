@@ -1,69 +1,34 @@
 package convert;
 
 public class RomanNumeralConverter {
+
     public String toRomanNumeral(int i) {
         StringBuilder out = new StringBuilder();
-
+    String o;
         if (i > 3999) return null;
 
-        while (i >= 1000)
-        {
-            out.append("M");
-            i -= 1000;
-        }
+        i = adjust(i, out, 1000, "M");
 
-        while (i >= 900)
-        {
-            out.append("CM");
-            i -= 900;
-        }
+        i = adjust(i, out, 900, "CM");
 
-        while (i >= 500)
-        {
-            out.append("D");
-            i -= 500;
-        }
+        i = adjust(i, out, 500, "D");
 
-        while (i >= 400)
-        {
-            out.append("CD");
-            i -= 400;
-        }
+        i = adjust(i, out, 400, "CD");
 
-        while (i >= 100)
-        {
-            out.append("C");
-            i -= 100;
-        }
+        i = adjust(i, out, 100, "C");
 
-        while (i >= 90)
-        {
-            out.append("XC");
-            i -= 90;
-        }
+        i = adjust(i, out, 90, "XC");
 
-        while (i >= 50)
-        {
-           out.append("L");
-           i -= 50;
-        }
+        i = adjust(i, out, 1000, "M");
 
-        while (i >= 40)
-        {
-            out.append("XL");
-            i -= 40;
+        i = adjust(i, out, 50, "L");
 
-        }
-        while (i >= 10)
-        {
-            out.append("X");
-            i -= 10;
-        }
+        i = adjust(i, out, 40, "XL");
 
-        if (i % 10 == 1){
-            out.append("I");
-            i -= 1;
-        }
+        i = adjust(i, out, 10, "X");
+
+
+
 
         if (i == 9){
             out.append("IX");
@@ -86,5 +51,16 @@ public class RomanNumeralConverter {
 
 
         return out.toString();
+    }
+
+
+
+    private int adjust(int i, StringBuilder out, int limit, String roman) {
+        while (i >= limit)
+        {
+            out.append(roman);
+            i -= limit;
+        }
+        return i;
     }
 }
