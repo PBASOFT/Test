@@ -42,7 +42,8 @@ public class DegreesTest {
         double expected = -17.78;
 
         //Act
-        double result = converter.toCelsius(0);
+        double result = converter.toCelsius(0
+        );
 
         //Assert
         assertEquals(expected, result, 0.1);
