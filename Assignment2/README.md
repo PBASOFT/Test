@@ -27,14 +27,17 @@ ___Use TDD to create a string utility with the following methods:___
 
     • Lowercase string (aBc -> abc)
 
+Solution:
+
   [String Utility TDD](https://github.com/maleneH/Test/tree/master/Assignment2/stringUtility)
 
 
 ###  Bowling game kata
 ___Complete the Bowling Game Kata using TDD.  
 
-      The slides can be found here:
-  http://butunclebob.com/files/downloads/Bowling%20Game%20Kata.ppt___
+      The slides can be found here: http://butunclebob.com/files/downloads/Bowling%20Game%20Kata.ppt___
+
+Solution:
 
 [Bowling Game TDD](https://github.com/maleneH/Test/tree/master/Assignment2/BowlingGame)
 
