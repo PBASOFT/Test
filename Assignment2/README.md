@@ -21,17 +21,19 @@ what happened. Can you identify a test that would have prevented it?___
 ### String utility
 ___Use TDD to create a string utility with the following methods:___
 
-  • Reverse string (aBc -> cBa)
+    • Reverse string (aBc -> cBa)
 
-  • Capitalize string (aBc -> ABC)
+    • Capitalize string (aBc -> ABC)
 
-  • Lowercase string (aBc -> abc)
+    • Lowercase string (aBc -> abc)
 
   [String Utility TDD](https://github.com/maleneH/Test/tree/master/Assignment2/stringUtility)
 
 
 ###  Bowling game kata
-___Complete the Bowling Game Kata using TDD. The slides can be found here:
+___Complete the Bowling Game Kata using TDD.  
+
+      The slides can be found here:
   http://butunclebob.com/files/downloads/Bowling%20Game%20Kata.ppt___
 
 [Bowling Game TDD](https://github.com/maleneH/Test/tree/master/Assignment2/BowlingGame)
