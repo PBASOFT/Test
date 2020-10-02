@@ -19,31 +19,30 @@ what happened. Can you identify a test that would have prevented it?___
 ## Two katas
 
 ### String utility
-___Use TDD to create a string utility with the following methods:___
+_Use TDD to create a string utility with the following methods:_
 
-  • Reverse string (aBc -> cBa)
+  _• Reverse string (aBc -> cBa)_
 
-  • Capitalize string (aBc -> ABC)
+  _• Capitalize string (aBc -> ABC)_
 
-  • Lowercase string (aBc -> abc)
+  _• Lowercase string (aBc -> abc)_
 
 
-      [String Utility TDD](https://github.com/maleneH/Test/tree/master/Assignment2/stringUtility)
+  __[String Utility TDD](https://github.com/maleneH/Test/tree/master/Assignment2/stringUtility)__
 
 
 ###  Bowling game kata
-___Complete the Bowling Game Kata using TDD.  
-
-  The slides can be found here: http://butunclebob.com/files/downloads/Bowling%20Game%20Kata.ppt___
-
+_Complete the Bowling Game Kata using TDD._
+_The slides can be found here: http://butunclebob.com/files/downloads/Bowling%20Game%20Kata.ppt_
 
 
-    [Bowling Game TDD](https://github.com/maleneH/Test/tree/master/Assignment2/BowlingGame)
+
+  __[Bowling Game TDD](https://github.com/maleneH/Test/tree/master/Assignment2/BowlingGame)__
 
 ## Investigation of tools
 
 ### JUnit 5
-___Investigate JUnit 5 (Jupiter). Explain the following, and how they are useful.___
+__Investigate JUnit 5 (Jupiter). Explain the following, and how they are useful.___
 
   • @Tag
 
