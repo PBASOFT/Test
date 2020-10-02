@@ -28,7 +28,7 @@ _Use TDD to create a string utility with the following methods:_
   _• Lowercase string (aBc -> abc)_
 
 
-  __[String Utility TDD](https://github.com/maleneH/Test/tree/master/Assignment2/stringUtility)__
+##  __[String Utility TDD](https://github.com/maleneH/Test/tree/master/Assignment2/stringUtility)__
 
 
 ###  Bowling game kata
@@ -37,7 +37,7 @@ _The slides can be found here: http://butunclebob.com/files/downloads/Bowling%20
 
 
 
-  __[Bowling Game TDD](https://github.com/maleneH/Test/tree/master/Assignment2/BowlingGame)__
+##  __[Bowling Game TDD](https://github.com/maleneH/Test/tree/master/Assignment2/BowlingGame)__
 
 ## Investigation of tools
 
