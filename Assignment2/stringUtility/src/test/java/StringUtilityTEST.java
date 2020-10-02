@@ -6,10 +6,10 @@ import static org.junit.jupiter.api.Assertions.*;
 
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
 public class StringUtilityTEST {
-    private StringUtility stringUtility;
+    private static StringUtility stringUtility;
 
     @BeforeAll
-    public void setup(){
+    private static void setup(){
         stringUtility = new StringUtility();
     }
 
