@@ -10,9 +10,21 @@ Test \ Soft2020fall
 ___Identify the types of testing you would perform on a computer mouse, to
 make sure that it is of the highest quality.___
 
+  1. It reacts on every click on left- and right button
+  3. Double click works
+  3. When rolling the mouse in a line over the screen it ha no "fall outs"'
+  4. The marker on the screen moves the same way as the mouse
+
+
+
 ### Catastrophic failure
 ___Find a story where a software system defect had a bad outcome. Describe
 what happened. Can you identify a test that would have prevented it?___
+
+__Story:__ Software malfunction drops thousands of 911 callers
+In 2014, a major 3rd-party nationwide emergency call center hub that directs and assigns calls to 911 services failed due to a major software malfunction. On April 9, thousands of calls were instantaneously dropped. Apparently, the tracking software contained a fixed-value counter maximum of 40 million calls. When this actual limit was reached on April 9, all additional calls were simply dropped—failing to provide service to 11 million people in more than 7 states.
+
+__Missing test:__ It seems like they didn't test the boundaries of the number of calls. That would probably either have had them thinking about how reasonable a limit of 40 million calls is, or simply have failed the test, as the boundary of the variable holding the 40.000.000 would be another number.
 
 
 
