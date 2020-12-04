@@ -4,6 +4,9 @@
 
 • Use Selenium IDE to test that you can find a youtube video
 
+
+![alt text](https://github.com/maleneH/Test/blob/master/Assignment5_FrontendTest/funnyCats.jpeg)
+
 • Use selenium IDE to test tha tyou can fill out this form:
 
    – https://sqengineer.com/practice-sites/basic-web-elements/
