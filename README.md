@@ -8,7 +8,3 @@ Cphbusiness SOFT 2020 Fall
 - [Assignment 5 - Front End Test](/Assignment5)
 
 
-[Eksamensnoter](/TESTEksamen.pdf)
-
-
-
