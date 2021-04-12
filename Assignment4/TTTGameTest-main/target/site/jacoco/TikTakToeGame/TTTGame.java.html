@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="da"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>TTTGame.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">TTTGame</a> &gt; <a href="index.source.html" class="el_package">TikTakToeGame</a> &gt; <span class="el_source">TTTGame.java</span></div><h1>TTTGame.java</h1><pre class="source lang-java linenums">package TikTakToeGame;
+
+public class TTTGame {
+    private char[][] board;
+    private char playerMark;
+    private char emptyBoardMark;
+    private char computerMark;
+
+<span class="fc" id="L9">    public TTTGame(){</span>
+<span class="fc" id="L10">        board = new char[3][3];</span>
+<span class="fc" id="L11">        playerMark = 'x';</span>
+<span class="fc" id="L12">        computerMark = 'o';</span>
+<span class="fc" id="L13">        emptyBoardMark = '*';</span>
+<span class="fc" id="L14">        initBoard();</span>
+<span class="fc" id="L15">    }</span>
+    public char[][] getBoard() {
+<span class="fc" id="L17">        return board;</span>
+    }
+
+    public void initBoard() {
+<span class="fc bfc" id="L21" title="All 2 branches covered.">        for (int r = 0; r &lt; 3; r++){</span>
+<span class="fc bfc" id="L22" title="All 2 branches covered.">            for (int c = 0; c &lt; 3; c++){</span>
+<span class="fc" id="L23">                board[r][c] = emptyBoardMark;</span>
+            }
+        }
+<span class="fc" id="L26">    }</span>
+
+    public boolean isBoardFull() {
+<span class="fc" id="L29">        boolean isFull = true;</span>
+<span class="fc bfc" id="L30" title="All 2 branches covered.">        for (int r = 0; r &lt; 3; r++){</span>
+<span class="fc bfc" id="L31" title="All 2 branches covered.">            for (int c = 0; c &lt; 3; c++) {</span>
+<span class="pc bpc" id="L32" title="1 of 2 branches missed.">                if (board[r][c] == emptyBoardMark){</span>
+<span class="fc" id="L33">                    isFull = false;</span>
+                }
+            }
+        }
+<span class="fc" id="L37">        return isFull;</span>
+    }
+
+    public boolean placeMove(int row, int column) throws Exception {
+<span class="pc bpc" id="L41" title="2 of 4 branches missed.">        if ((row  &gt;= 0) &amp;&amp; (row &lt; 3)){</span>
+<span class="pc bpc" id="L42" title="2 of 4 branches missed.">            if((column  &gt;= 0) &amp;&amp; (column &lt; 3)){</span>
+<span class="fc bfc" id="L43" title="All 2 branches covered.">                if (board[row][column]  ==  emptyBoardMark){</span>
+<span class="fc" id="L44">                    board[row][column] = playerMark;</span>
+<span class="fc" id="L45">                    return true;</span>
+                }
+                else{
+<span class="fc" id="L48">                    throw new Exception(&quot;The field is not empty&quot;);</span>
+                }
+            }
+        }
+<span class="nc" id="L52">        return false;</span>
+    }
+
+    public boolean checkRowWin() {
+<span class="pc bpc" id="L56" title="1 of 2 branches missed.">        for (int r =  0; r &lt; 3; r++){</span>
+<span class="pc bpc" id="L57" title="2 of 6 branches missed.">            if ((board[r][0] == playerMark) &amp;&amp; (board[r][1] == playerMark) &amp;&amp; (board[r][2] == playerMark))</span>
+<span class="fc" id="L58">            return true;</span>
+        }
+<span class="nc" id="L60">        return false;</span>
+    }
+    public void printGameBoard() {
+<span class="fc bfc" id="L63" title="All 2 branches covered.">        for (int r = 0; r &lt; 3; r++) {</span>
+<span class="fc bfc" id="L64" title="All 2 branches covered.">            for (int c = 0; c &lt; 3; c++) {</span>
+<span class="fc" id="L65">                System.out.print(board[r][c] + &quot;|&quot;);</span>
+            }
+<span class="fc" id="L67">            System.out.println();</span>
+        }
+<span class="fc" id="L69">    }</span>
+
+    public boolean checkColumnWin() {
+<span class="pc bpc" id="L72" title="1 of 2 branches missed.">        for (int c =  0; c &lt; 3; c++){</span>
+<span class="pc bpc" id="L73" title="2 of 6 branches missed.">            if ((board[0][c] == playerMark) &amp;&amp; (board[1][c] == playerMark) &amp;&amp; (board[2][c] == playerMark))</span>
+<span class="fc" id="L74">                return true;</span>
+        }
+<span class="nc" id="L76">        return false;</span>
+    }
+
+    public boolean checkDiagonalsWin() {
+<span class="pc bpc" id="L80" title="5 of 12 branches missed.">        return ((board[0][0] == playerMark) &amp;&amp; (board[1][1] == playerMark) &amp;&amp; (board[2][2] == playerMark)) ||</span>
+                ((board[0][2] == playerMark) &amp;&amp; (board[1][1] == playerMark) &amp;&amp; (board[2][0] == playerMark));
+    }
+
+    public boolean computerPlaceMove() {
+<span class="pc bpc" id="L85" title="1 of 2 branches missed.">        for (int r = 0; r &lt; 3; r++){</span>
+<span class="pc bpc" id="L86" title="1 of 2 branches missed.">            for (int c = 0; c &lt; 3; c++){</span>
+<span class="pc bpc" id="L87" title="1 of 2 branches missed.">                if(board[r][c] == emptyBoardMark){</span>
+<span class="fc" id="L88">                    board[r][c] =  computerMark;</span>
+<span class="fc" id="L89">                    return true;</span>
+                }
+            }
+        }
+<span class="nc" id="L93">        return false;</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.6.202009150832</span></div></body></html>
